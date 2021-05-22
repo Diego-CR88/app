@@ -1,9 +1,10 @@
-/*css files add styling rules to you content */ 
-body{
+/*css files add styling rules to you content */
+
+body {
   margin: 0em;
-  }
+}
 
 .cover {
-  height:400px;
-  backgroun:
+  height: 400px;
+  background-color:orange;
 }
