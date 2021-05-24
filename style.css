@@ -16,7 +16,7 @@ body {
 
 .cover-small{
   height:200px;
-  
+  backgroun-blend-mode:normal;
 }
 
 .card{
