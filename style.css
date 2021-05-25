@@ -34,23 +34,22 @@ h5 {
 }
 
 .card-title {
-  min-height: 3rem;
+  min-height:3rem;
 }
 .car-tex {
-  min-height: 10rem;
+  min-height:10rem;
 }
 
-.product-stripe {
-  overflow-x: scroll;
+.product-stripe{
+  overflow-x:scroll;
 }
 
-.stripe-container {
-  display: flex;
-  felx-direction: row;
+.stripe-container{
+  display:flex;
 }
 
 .stripe-container .card {
-  width: 300px;
-  felx-shrink: 0;
-  margin-right: 1rem;
+  width:300px;
+  felx-shrink:0;
+  margin-right:1rem;
 }
