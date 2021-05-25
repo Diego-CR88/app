@@ -39,3 +39,14 @@ h5 {
 .car-tex {
   min-height: 10rem;
 }
+
+.stripe-container{
+  display:flex;
+  felx-direction:row
+}
+
+.stripe-container .card{
+  width:300px;
+  felx-shrink:0;
+  margin-right:1rem;
+}
