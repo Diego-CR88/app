@@ -52,6 +52,6 @@ h5 {
 
 .stripe-container .card {
   width: 300px;
-  felx-shrink: 0;
+  flex-shrink: 0;
   margin-right: 1rem;
 }
