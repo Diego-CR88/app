@@ -40,13 +40,17 @@ h5 {
   min-height: 10rem;
 }
 
-.stripe-container{
-  display:flex;
-  felx-direction:row
+.product-stripe {
+  overflow-x: scroll;
 }
 
-.stripe-container .card{
-  width:300px;
-  felx-shrink:0;
-  margin-right:1rem;
+.stripe-container {
+  display: flex;
+  felx-direction: row;
+}
+
+.stripe-container .card {
+  width: 300px;
+  felx-shrink: 0;
+  margin-right: 1rem;
 }
