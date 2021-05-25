@@ -1,7 +1,7 @@
 /*css files add styling rules to you content */
 
 body {
-  margin: 0em;
+  margin: 0rem;
   font-family: "Fjalla One", sans-serif;
 }
 
@@ -42,8 +42,8 @@ h5 {
 
 .product-stripe {
   overflow-x: scroll;
-  padding-top:1rem;
-  padding-bottom:1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .stripe-container {
