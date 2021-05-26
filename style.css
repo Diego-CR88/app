@@ -133,7 +133,7 @@ h5 {
    95%{
      transform: translateX(-300%);
   
-  100%
-  
+  100%{
+     transform: translateX(-0%);
   }
 }
