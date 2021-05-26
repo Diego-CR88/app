@@ -53,14 +53,13 @@ h5 {
   min-height: 10rem;
 }
 
-.product-stripe,
-.slider {
+.product-stripe, .slider {
   overflow-x: scroll;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-.stripe-container,{
+.stripe-container, .slider-container{
   display: flex;
 }
 
@@ -97,4 +96,15 @@ h5 {
   background: cover;
   backgroun-position: center;
   flex-shrink: 0;
+}
+
+@keyframes slider{
+  0%{
+    transform: translateX(0);
+  
+ }
+
+ 100%{
+   transform: translateX(-100%);
+ }
 }
