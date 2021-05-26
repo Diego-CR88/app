@@ -84,8 +84,14 @@ h5 {
 
 .slider {
   overflow-x:hidden;
+
 }
 
+.slider-conatainer{
+  transfor:translateX(0);
+  
+  
+}
 .image-container {
   width:100%;
   padding-top: 56.25%;
