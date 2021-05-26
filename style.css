@@ -53,13 +53,13 @@ h5 {
   min-height: 10rem;
 }
 
-.product-stripe {
+.product-stripe, .slider {
   overflow-x: scroll;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-.stripe-container {
+.stripe-container, .slider-container {
   display: flex;
 }
 
@@ -82,7 +82,14 @@ h5 {
   height: 100%;
 }
 
+.slider {
+  overflow-x:hidden;
+}
+
 .image-container {
   width:100%;
   padding-top: 56.25%;
+  background:cover;
+  backgroun-position:center;
+  flex-shrink:0;
 }
