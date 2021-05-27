@@ -17,13 +17,15 @@ h4 {
 p {
   color: green;
 }
-h9{
-  color:white
+h9 {
+  color: white;
 }
-h6{
-  color:blue
+h6 {
+  color: blue;
 }
-h7{color:black}
+h7 {
+  color: black;
+}
 h1,
 h2,
 h3,
@@ -107,39 +109,39 @@ h5 {
   flex-shrink: 0;
 }
 
-@keyframes slider {
+@keyframes slider 
   0% {
-    transform: translateX(0);
-  }
+  transform: translateX(0);
+}
 
-  20% {
+20% {
+  transform: translateX(-0%);
+}
+
+25% {
+  transform: translateX(-100%);
+}
+
+45% {
+  transform: translateX(-100%);
+}
+
+50% {
+  transform: translateX(-200%);
+}
+
+70% {
+  transform: translateX(-200%);
+}
+
+75% {
+  transform: translateX(-300%);
+}
+
+95% {
+  transform: translateX(-300%);
+
+  100% {
     transform: translateX(-0%);
-  }
-  
-  25%{
-    transform: translateX(-100%);
-  }
-  
-  45%{
-    transform: translateX(-100%);
-  }
-  
-   50%{
-     transform: translateX(-200%);
-  }
-  
-   70%{
-     transform: translateX(-200%);
-  }
-  
-   75%{
-     transform: translateX(-300%);
-  }
-  
-   95%{
-     transform: translateX(-300%);
-  
-  100%{
-     transform: translateX(-0%);
   }
 }
